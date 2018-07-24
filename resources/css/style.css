@@ -1,0 +1,117 @@
+/* Basic Setup 
+Orange -  rgb(255, 157, 0); Color*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    
+    background-color: #fff;
+    color: #fff5f5;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+    
+    max-width: 1400px;
+    margin:0 auto;
+     
+}
+
+header{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.51)),url(img/hero.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    
+}
+h1{
+    margin-top:0;
+    margin-bottom: :20px;
+    font-size:200%;
+    font-weight:30;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 4px;
+    color:rgba(255, 255, 255, 0.85);
+    
+}
+.hero-text-box{
+    position:absolute;
+    width: 1140px;
+    top: 50%;
+    left: 10%;
+ 
+}
+/* NAVAGATION PART OF HEADER ************************ */
+
+.logo{
+    margin-bottom:0px;
+    float:left;
+    height:120px;
+    width:300px;
+   
+
+    
+}
+.main-nav{
+    float:right;
+    list-style: none;
+    margin-top:30px;
+}
+
+.main-nav li{
+    display:inline-block;
+    margin:30px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    color:rgba(255, 249, 249, 0.9);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size:90%;
+    transition: border-bottom 0.5s;
+    padding:8px 0px;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid  rgb(255, 157, 0);
+
+}
+/* Buttons Design *************************************** */
+
+.btn:link,
+.btn:visited{
+    display:inline-block;
+    padding: 11px 30px;
+    text-decoration:none;
+    border-radius: 300px;
+    color:rgba(255, 255, 255, 0.82);
+    transition:background-color 0.4s,border 0.4s,color 0.4s;
+}
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: rgb(255, 157, 0);
+    border: 1px solid rgb(255, 157, 0);
+    margin-right:15px;
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid  rgb(255, 157, 0);
+    color:rgb(255, 157, 0);
+}
+.btn:hover,
+.btn:active{
+    
+    background-color:rgba(255, 157, 0, 0.57);
+    
+    
+}
+/* Buttons Design *************************************** */

@@ -1,6 +1,6 @@
 /* Basic Setup 
 Orange -  rgb(255, 157, 0); Color*/
-
+/********************* Columns and Row for initial setup */
 * {
     margin: 0;
     padding: 0;
@@ -21,9 +21,14 @@ html {
     
     max-width: 1400px;
     margin:0 auto;
-     
+    color:black;
 }
-
+.col{
+    display:block;
+    float:left;
+    margin: 1% 0 1% 1.0%;
+}
+/*HEADER -------------------------------------------------- */
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.51)),url(img/hero.jpg);
     background-size: cover;
@@ -49,6 +54,8 @@ h1{
     left: 10%;
  
 }
+
+
 /* NAVAGATION PART OF HEADER ************************ */
 
 .logo{

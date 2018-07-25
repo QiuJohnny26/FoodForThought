@@ -27,7 +27,16 @@ html {
     display:block;
     float:left;
     margin: 1% 0 1% 1.0%;
+    
 }
+
+/* SECTION ********************************************* */
+.section-features{
+    
+    margin:50px auto;
+    
+}
+
 /*HEADER -------------------------------------------------- */
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.51)),url(img/hero.jpg);
@@ -36,6 +45,13 @@ header{
     background-position: center;
     
 }
+h1,h2,h3{
+     font-weight: :300;
+     text-transform:uppercase;
+     letter-spacing: 1px;
+    
+}
+
 h1{
     margin-top:0;
     margin-bottom: :20px;
@@ -47,6 +63,24 @@ h1{
     color:rgba(255, 255, 255, 0.85);
     
 }
+h2{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-top:0;
+    margin-bottom: 30px;
+    word-spacing: 4px;
+    text-align: center;
+ }
+h2:after {
+    display:block;
+    height:2px;
+    background-color: rgb(255, 157, 0);
+    content:" ";
+    margin:0 auto;
+    width:100px;
+    margin-top:30px;
+    
+}
 .hero-text-box{
     position:absolute;
     width: 1140px;
@@ -54,8 +88,41 @@ h1{
     left: 10%;
  
 }
+h3{
+    font-size: 110%;
+    padding:3.0%;
+    border-right: 3px solid rgb(255, 157, 0) ;
+    
+}
+p{
+    padding: 1.8%;
+}
+.borders{
+     border-right: 3px solid rgb(255, 157, 0) ;
+     border-right:center;
+     height:170px;
+}
+/* PARAGRAPHS *******************************************/
 
+.long-copy{
+     line-height:145%;
+     width:70%;
+     margin:0 15%;
+    
+}
 
+.box{
+    padding:1%;
+   
+}
+/* ICONS ***********************************************/
+
+.icon-big{
+    font-size:300%;
+    display:inline-block;
+    color: rgb(255, 157, 0) ;
+    margin-bottom: 10px;
+}
 /* NAVAGATION PART OF HEADER ************************ */
 
 .logo{

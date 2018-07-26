@@ -37,6 +37,24 @@ html {
     
 }
 
+/* MEALS SECTION *******************************************/
+.meals-showcase{
+    max-width: 100%;
+}
+.meals-showcase li{
+    display:block;
+    float:left;
+    width: 25%;
+    
+}
+.meals-photo{
+    display:100%;
+    margin:0;
+    
+}
+.meal-photo img {
+    width:100%;
+}
 /*HEADER -------------------------------------------------- */
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.51)),url(img/hero.jpg);

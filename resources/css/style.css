@@ -47,13 +47,20 @@ html {
     width: 25%;
     
 }
-.meals-photo{
+.meal-photo{
     display:100%;
     margin:0;
+    overflow: hidden;
+    
     
 }
 .meal-photo img {
     width:100%;
+    height:auto;
+    transform:scale(1.15);
+}
+.meal-photo img:hover{
+    transform: scale(1.03);
 }
 /*HEADER -------------------------------------------------- */
 header{

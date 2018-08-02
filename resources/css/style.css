@@ -39,12 +39,19 @@ html {
     visibility: hidden;
 }
 
+section {
+  padding: 80px 0;   
+}
+.box{
+    padding:1%;
+}
 /* SECTION ********************************************* */
 .section-features{
     
     margin:50px auto;
     
 }
+
 
 /* MEALS SECTION *******************************************/
 .meals-showcase{
@@ -265,4 +272,25 @@ p{
     
     
 }
-/* Buttons Design *************************************** */
+/* Section Cities Design *************************************** */
+
+.section-cities img{
+    
+   width: 350px;
+
+    
+    
+}
+.section-cities h3{
+    text-align: center;
+    padding:20spx;
+    border-left: 200%; 
+    margin-left: 60px;
+    font:300%;
+    white-space: nowrap;
+}
+.city-feature{
+    text-align: center;
+}
+
+   

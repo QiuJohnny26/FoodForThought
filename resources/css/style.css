@@ -81,11 +81,17 @@ section {
 .meal-photo img:hover{
     transform: scale(1.03);
 }
+.section-images{
+    margin-top:-150px;
+}
 
 
-/* App store section ********************* */
+/* App store section ***************************************************** */
  
-
+.section-steps{
+    margin-top:-10px;
+    background:linear-gradient(rgba(0, 0, 0, 0.07),rgba(0, 0, 0, 0.12));
+}
 .steps-box:first-child{
     text-align:right;
     padding-right:3%;
@@ -321,7 +327,7 @@ p{
 
 /* Section Testimonials *************************************** */
 .section-testimonials{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.46)),url(img/back-customers.jpg);
+    background-image:linear-gradient(rgba(0, 0, 0, 0.88),rgba(0, 0, 0, 0.46)),url(img/back-customers.jpg);
     background-size: cover;
     background-attachment: fixed;
 }

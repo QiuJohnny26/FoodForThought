@@ -206,7 +206,18 @@ p{
     display:inline-block;
     color: rgb(255, 157, 0) ;
     margin-bottom: 10px;
+    
 }
+.icon-small{
+    display:inline-block;
+    width:30px;
+    text-align: center;
+    color:rgb(255, 157, 0) ;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top:-2px;
+}
+/* secrets to align text and icons 
 /* NAVAGATION PART OF HEADER ************************ */
 
 .logo{
@@ -276,21 +287,34 @@ p{
 
 .section-cities img{
     
-   width: 350px;
-
+  max-width: 100%;
+  margin-left:10px;
     
     
 }
 .section-cities h3{
-    text-align: center;
-    padding:20spx;
-    border-left: 200%; 
-    margin-left: 60px;
+
+    height: auto;
     font:300%;
     white-space: nowrap;
+    border: none;
+    margin-top:-2px;
 }
 .city-feature{
-    text-align: center;
+    margin-top:10px;
+}
+.city-feature a:link,
+.city-feature a:active{
+    text-decoration: none;
+    border-bottom: 2px solid rgba(255, 192, 192, 0.37);
+    transition: border-bottom 0.2s, color 0.2s;
+  }
+
+.city-feature a:hover,
+.city-feature a:active{
+    color:lightblue;
+    border-bottom: 2px solid transparent;
+    
 }
 
-   
+

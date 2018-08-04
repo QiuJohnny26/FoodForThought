@@ -127,6 +127,7 @@ header{
     background-size: cover;
     height: 100vh;
     background-position: center;
+    background-attachment: fixed;
     
 }
 h1,h2,h3{
@@ -318,3 +319,39 @@ p{
 }
 
 
+/* Section Testimonials *************************************** */
+.section-testimonials{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.35),rgba(0, 0, 0, 0.46)),url(img/back-customers.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.user-testimonials{
+    color:rgba(255, 255, 255, 0.88);
+}
+blockquote{
+    padding:2%;
+    line-height: 145%;
+    font-style: italic;
+    position: relative;
+    margin-top:40px;
+}
+cite{
+    font-size:90%;
+    margin-top: 25px;
+    display:block;
+}
+
+blockquote:before,
+blockquote:after
+{
+
+    content:"\201C";
+    
+    
+}
+cite img{
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align:middle;
+}

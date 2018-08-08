@@ -405,5 +405,5 @@ background-color:aliceblue;
  }
 .plan-box div:last-child{
     text-align: center;
-    
+    border-bottom: none;
 }

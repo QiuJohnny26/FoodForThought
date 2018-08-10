@@ -407,3 +407,11 @@ background-color:aliceblue;
     text-align: center;
     border-bottom: none;
 }
+
+/* Section Form ***************************************************** */
+
+.section-form{
+    width: 1140px;
+    margin-left: 10%;
+}
+

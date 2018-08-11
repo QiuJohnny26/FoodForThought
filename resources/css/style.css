@@ -225,6 +225,10 @@ p{
     vertical-align: middle;
     margin-top:-2px;
 }
+.ion-ios-close-empty{
+    color:red; 
+    
+}
 /* secrets to align text and icons 
 /* NAVAGATION PART OF HEADER ************************ */
 
@@ -431,13 +435,14 @@ background-color:aliceblue;
 }
 input[type=text], 
 input[type=email],
+.find-us,
 select
  {
     width:80%;
     padding: 7px;
-    margin-top: -200px;
+    margin-top: -30px;
     border: 1px solid grey;
-    border-radius:10px;
+    border-top-left-radius:10px;
     
 }
 textarea{

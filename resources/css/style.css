@@ -1,6 +1,6 @@
 /* Basic Setup 
 Orange -  rgb(255, 157, 0); Color*/
-/********************* Columns and Row for initial setup */
+/******************************************************************** Columns and Row for initial setup */
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +10,7 @@ Orange -  rgb(255, 157, 0); Color*/
 html {
     
     background-color: #fff;
-    color: #fff5f5;
+    color: rgb(255, 157, 0);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
     font-weight: 100;
@@ -45,7 +45,7 @@ section {
 .box{
     padding:1%;
 }
-/* SECTION ********************************************* */
+/* SECTION ******************************************************************************************************************************************* */
 .section-features{
     
     margin:50px auto;
@@ -53,7 +53,7 @@ section {
 }
 
 
-/* MEALS SECTION *******************************************/
+/* MEALS SECTION *****************************************************************************************************************************************/
 .meals-showcase{
     max-width: 100%;
 }
@@ -87,7 +87,7 @@ section {
 }
 
 
-/* App store section ***************************************************** */
+/* App store section ************************************************************************************************************************************************************************************************** */
  
 .section-steps{
     margin-top:-px;
@@ -128,7 +128,7 @@ section {
     width:auto;
     margin-right:10px;
 }
-/*HEADER -------------------------------------------------- */
+/*HEADER ---------------------------------*********************************************************************************************************************************************----------------- */
 header{
     background-image:linear-gradient(rgba(0, 0, 0, 0.79),rgba(0, 0, 0, 0.51)),url(img/hero.jpg);
     background-size: cover;
@@ -194,7 +194,7 @@ p{
      border-right:center;
      height:170px;
 }
-/* PARAGRAPHS *******************************************/
+/* PARAGRAPHS *****************************************************************************************************************************************/
 
 .long-copy{
      line-height:145%;
@@ -207,7 +207,7 @@ p{
     padding:1%;
    
 }
-/* ICONS ***********************************************/
+/* ICONS *********************************************************************************************************************************************/
 
 .icon-big{
     font-size:300%;
@@ -230,7 +230,7 @@ p{
     
 }
 /* secrets to align text and icons 
-/* NAVAGATION PART OF HEADER ************************ */
+/* NAVAGATION PART OF HEADER *********************************************************************** */
 
 .logo{
     margin-bottom:0px;
@@ -265,7 +265,7 @@ p{
     border-bottom: 2px solid  rgb(255, 157, 0);
 
 }
-/* Buttons Design *************************************** */
+/* Buttons Design ************************************************************************************** */
 
 .btn:link,
 .btn:visited,
@@ -301,7 +301,7 @@ input[type=submit]:active
     
     
 }
-/* Section Cities Design *************************************** */
+/* Section Cities Design ************************************************************************************** */
 
 .section-cities img{
     
@@ -336,7 +336,7 @@ input[type=submit]:active
 }
 
 
-/* Section Testimonials *************************************** */
+/* Section Testimonials ************************************************************************************** */
 .section-testimonials{
     background-image:linear-gradient(rgba(0, 0, 0, 0.88),rgba(0, 0, 0, 0.46)),url(img/back-customers.jpg);
     background-size: cover;
@@ -373,7 +373,7 @@ cite img{
     vertical-align:middle;
 }
 
-/* Customer Testimonials ***************************************************** */
+/* Customer Testimonials **************************************************************************************************** */
 .section-plans{
      background:linear-gradient(rgba(0, 0, 0, 0.07),rgba(0, 0, 0, 0.12));
     
@@ -418,7 +418,7 @@ background-color:aliceblue;
     border-bottom: none;
 }
 
-/* Form ***************************************************** */
+/* Form **************************************************************************************************** */
 
 .section-form h2{
     width: 1140px;
@@ -457,4 +457,86 @@ input[type=submit]{
 }
 input[type=checkbox]{
     margin-bottom:10px 5px 10px 10px;
+}
+
+/* Footer ************************************************************************************************************************************ */
+
+footer{
+    background-color:dimgray;
+    height:170px;
+    font-size:90%;
+}
+.footer-nav{
+    list-style: none;
+    float: left;
+    color:orange;
+    width:1000px;
+    margin-left:100px;
+    margin-top:35px;
+    
+}
+.social-icons{
+     margin-top:15px;
+    float:right;
+    color:grey;
+    margin-right:10px;
+}
+.footer-nav li,
+.social-icons li{
+    display:inline-block;
+    margin-right: 1px;
+    margin-left: 37px
+}
+footer a{
+    color:grey;;
+}
+footer a:hover,
+footer a:active
+{
+    color: rgb(255, 157, 0);
+    transition: color 0.8s;
+}
+.footer-nav li:last-child,
+.social-icons li:last-child{
+    margin-right:0;
+}
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-icons li i:link,
+.social-icons li i:visited {
+    text-decoration: none;
+    border:0;
+
+}
+.social-icons li i{
+    transition:color 0.5s;
+}
+
+
+.ion-social-facebook:hover{
+    color:#3b5998;
+    
+}
+.ion-social-twitter:hover{
+    color:#00aced;
+}
+.ion-social-googleplus:hover{
+    color:#dd4b39;
+
+}
+.ion-social-instagram:hover{
+    color:#517fa4;
+
+}
+/* When you Have an A href + an I class , you must just label as .social-icons li i REFER TO line 511*/ 
+
+.copyright{
+    color:grey;
+    margin-left:110px;
+    margin-top:100px;
+    width:1000px;
+    text-align: center;
+    font-size:80%;
+    text-transform:capitalize;
+    
 }

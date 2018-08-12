@@ -177,8 +177,8 @@ h2:after {
     position:absolute;
     width: 1140px;
     top: 50%;
-    left: 10%;
- 
+    left: 70%;
+    transform: translate(-50%,-50%)
 }
 h3{
     font-size: 110%;
@@ -423,7 +423,6 @@ background-color:aliceblue;
 .section-form h2{
     width: 1140px;
     text-align: center;
-    margin-left: 100px;
     margin-bottom:50px;
    
 }

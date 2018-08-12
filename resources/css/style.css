@@ -19,7 +19,7 @@ html {
 
 .row {
     
-    max-width: 1400px;
+    max-width: 1200px;
     margin:0 auto;
     color:black;
 }
@@ -44,6 +44,11 @@ section {
 }
 .box{
     padding:1%;
+}
+html,body{
+    max-width:100%;
+    overflow-x:hidden;
+    
 }
 /* SECTION ******************************************************************************************************************************************* */
 .section-features{

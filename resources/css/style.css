@@ -238,10 +238,10 @@ p{
 /* NAVAGATION PART OF HEADER *********************************************************************** */
 
 .logo{
-    margin-bottom:-100
+    margin-bottom:0px;
     float:left;
-    height:50px;
-    width:10%;
+    height:120px;
+    width:300px;
    
 
     
@@ -249,11 +249,20 @@ p{
 .logo-black{
     display: none;
     height:auto;
-    width: 100px;
+    width: 140px;
     float:left;
 
 }
 /* main nav*********************************************************************************************/
+.logo{
+    margin-top:13px;
+    float:left;
+    height:120px;
+    width:300px;
+   
+
+    
+}
 .main-nav{
     float:right;
     list-style: none;
@@ -262,7 +271,7 @@ p{
 
 .main-nav li{
     display:inline-block;
-    margin-top:40px;
+    margin:30px;
 }
 .main-nav li a:link,
 .main-nav li a:visited{
@@ -270,10 +279,8 @@ p{
     text-decoration: none;
     text-transform: uppercase;
     font-size:90%;
-    border-bottom:1px solid transparaent;
-    -webkit-transition: border-bottom 0.2s;
-    transition: border-bottom 0.5s;
-    padding:12px 0px;
+    transition: border-bottom 0.2s;
+    padding:8px 0px;
 }
 .main-nav li a:hover,
 .main-nav li a:active{
@@ -289,20 +296,27 @@ p{
     width:100%;
     background-color:rgba(255, 255, 255, 0.96);
     box-shadow: 0 2px 2px #989898;
+    z-index: 9999;
     
 }
-.main-nav{
-  margin-top:-26px;
+.sticky .main-nav{
+  margin-top:-10px;
 }
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited{
     color:#555;
     text-decoration: none;
-    padding:20px;
+    padding:34px;
+    font-size:70%;
     margin-top:100px;
+   transition: border-bottom 0.2s;
+
 }
 .sticky .logo{display:none; }
-.sticky .logo-black{display:block;}
+.sticky .logo-black{display:block;
+}
+
+
 
 /* Buttons Design ************************************************************************************** */
 

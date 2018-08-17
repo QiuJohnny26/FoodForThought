@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    
   $('.js--section-features').waypoint(function(direction){
     if (direction == "down"){
       $('nav').addClass('sticky')
@@ -7,6 +8,11 @@ $(document).ready(function(){
         $('nav').removeClass('sticky')
     }
                                        
-});
+}, {
+   offset:'10px;'
+  });
 
+    
+    
+    
 });

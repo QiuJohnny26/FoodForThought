@@ -10,7 +10,7 @@ $(document).ready(function(){
     }
                                        
 }, {
-   offset:'10px;'
+   offset:'60px;'
   });
 
      
@@ -22,5 +22,17 @@ $('.js--scroll-to-plans').click(function(){
 $('.js--scroll-to-start').click(function(){
     $('html,body').animate({scrollTop:$('.js--section-features').offset().top},500);
 })
-    
+
+$('.js--scroll-to-testimonies').click(function(){
+     $('html,body').animate({scrollTop:$('.js--section-testimonials').offset().top},500);
+})
+ $('.js--scroll-to-instructions').click(function(){
+    $('html,body').animate({scrollTop:$('.js--section-instructions').offset().top},500);
+})
+ $('.js--scroll-to-cities').click(function(){
+    $('html,body').animate({scrollTop:$('.js--section-cities').offset().top},500);
+})
+ $('.js--scroll-to-signup').click(function(){
+    $('html,body').animate({scrollTop:$('.js--section-plans').offset().top},500);
+})    
 });

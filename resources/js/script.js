@@ -73,4 +73,23 @@ $('a[href*="#"]')
       }
     }
   });
+    /** Waypoint function is when it hits the certain section of the page then it happens **/
+    $('.js--wp-1').waypoint(function(direction){
+        $('.js--wp-1').addClass('animated fadeIn');
+    },{
+        offset:'80%'
+    });
+    
+       $('.js--wp-2').waypoint(function(direction){
+        $('.js--wp-2').addClass('animated bounceIn');
+    },{
+        offset:'80%'
+    });
+    
+         $('.js--wp-3').waypoint(function(direction){
+        $('.js--wp-3').addClass('animated fadeInUp ');
+    },{
+        offset:'80%'
+    });
+    
     });

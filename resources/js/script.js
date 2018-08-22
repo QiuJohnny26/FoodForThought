@@ -1,5 +1,21 @@
 $(document).ready(function(){
-
+    
+/********** For Sticky Navigation *******************************************************************************************/
+ 
+    $('.js--section-features').waypoint(function(direction){
+    if (direction == "down"){
+      $('nav').addClass('sticky')
+  }
+    else{
+        $('nav').removeClass('sticky')
+    }
+                                       
+}, {
+   offset:'60px;'
+  });
+  
+    
+// Select all links with hashes
     /********** For Scrolling Easily  **************************************************************************************** 
 /***********/
 $('a[href*="#"]')

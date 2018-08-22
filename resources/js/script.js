@@ -1,43 +1,7 @@
 $(document).ready(function(){
-    
-/********** For Sticky Navigation *******************************************************************************************/
-  $('.js--section-features').waypoint(function(direction){
-    if (direction == "down"){
-      $('nav').addClass('sticky')
-  }
-    else{
-        $('nav').removeClass('sticky')
-    }
-                                       
-}, {
-   offset:'60px;'
-  });
 
-     
-/********** For Scrolling *******************************************************************************************/   
-$('.js--scroll-to-plans').click(function(){
-    $('html,body').animate({scrollTop:$('.js--section-plans').offset().top},1000);
-});
-
-$('.js--scroll-to-start').click(function(){
-    $('html,body').animate({scrollTop:$('.js--section-features').offset().top},500);
-})
-
-$('.js--scroll-to-testimonies').click(function(){
-     $('html,body').animate({scrollTop:$('.js--section-testimonials').offset().top},500);
-})
- $('.js--scroll-to-instructions').click(function(){
-    $('html,body').animate({scrollTop:$('.js--section-instructions').offset().top},500);
-})
- $('.js--scroll-to-cities').click(function(){
-    $('html,body').animate({scrollTop:$('.js--section-cities').offset().top},500);
-})
- $('.js--scroll-to-signup').click(function(){
-    $('html,body').animate({scrollTop:$('.js--section-plans').offset().top},500);
-})    
-
-
-// Select all links with hashes
+    /********** For Scrolling Easily  **************************************************************************************** 
+/***********/
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
@@ -73,6 +37,7 @@ $('a[href*="#"]')
       }
     }
   });
+    
     /** Waypoint function is when it hits the certain section of the page then it happens **/
     $('.js--wp-1').waypoint(function(direction){
         $('.js--wp-1').addClass('animated fadeIn');
